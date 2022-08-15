@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1535255AE94BFE7CA2B81E /* Pods_rate_aps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5DB14D908B77F516C05650 /* Pods_rate_aps.framework */; };
 		FE08C8F128A9E215004AF646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE08C8F028A9E215004AF646 /* AppDelegate.swift */; };
 		FE08C8F328A9E215004AF646 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE08C8F228A9E215004AF646 /* SceneDelegate.swift */; };
 		FE08C8F528A9E215004AF646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE08C8F428A9E215004AF646 /* ViewController.swift */; };
 		FE08C8F828A9E215004AF646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE08C8F628A9E215004AF646 /* Main.storyboard */; };
 		FE08C8FA28A9E217004AF646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE08C8F928A9E217004AF646 /* Assets.xcassets */; };
 		FE08C8FD28A9E217004AF646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE08C8FB28A9E217004AF646 /* LaunchScreen.storyboard */; };
+		FE251EBA28AA79BC007775AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE251EB928AA79BC007775AF /* GoogleService-Info.plist */; };
+		FE251EBC28AA9A62007775AF /* StoreReviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE251EBB28AA9A62007775AF /* StoreReviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7AFC073EF5C8B7C6CF61A4A8 /* Pods-rate-aps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rate-aps.release.xcconfig"; path = "Target Support Files/Pods-rate-aps/Pods-rate-aps.release.xcconfig"; sourceTree = "<group>"; };
+		9471A9489E9511F6F26766C2 /* Pods-rate-aps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rate-aps.debug.xcconfig"; path = "Target Support Files/Pods-rate-aps/Pods-rate-aps.debug.xcconfig"; sourceTree = "<group>"; };
+		CF5DB14D908B77F516C05650 /* Pods_rate_aps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rate_aps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE08C8ED28A9E215004AF646 /* rate-aps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rate-aps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE08C8F028A9E215004AF646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE08C8F228A9E215004AF646 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,9 @@
 		FE08C8F928A9E217004AF646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE08C8FC28A9E217004AF646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE08C8FE28A9E217004AF646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE251EB828AA7967007775AF /* rate-aps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "rate-aps.entitlements"; sourceTree = "<group>"; };
+		FE251EB928AA79BC007775AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE251EBB28AA9A62007775AF /* StoreReviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreReviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1535255AE94BFE7CA2B81E /* Pods_rate_aps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A7F31388BDDDE087B2CBC9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9471A9489E9511F6F26766C2 /* Pods-rate-aps.debug.xcconfig */,
+				7AFC073EF5C8B7C6CF61A4A8 /* Pods-rate-aps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		682C50F522F0F612F280FF37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF5DB14D908B77F516C05650 /* Pods_rate_aps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE08C8E428A9E215004AF646 = {
 			isa = PBXGroup;
 			children = (
 				FE08C8EF28A9E215004AF646 /* rate-aps */,
 				FE08C8EE28A9E215004AF646 /* Products */,
+				1A7F31388BDDDE087B2CBC9E /* Pods */,
+				682C50F522F0F612F280FF37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +85,7 @@
 		FE08C8EF28A9E215004AF646 /* rate-aps */ = {
 			isa = PBXGroup;
 			children = (
+				FE251EB828AA7967007775AF /* rate-aps.entitlements */,
 				FE08C8F028A9E215004AF646 /* AppDelegate.swift */,
 				FE08C8F228A9E215004AF646 /* SceneDelegate.swift */,
 				FE08C8F428A9E215004AF646 /* ViewController.swift */,
@@ -63,6 +93,8 @@
 				FE08C8F928A9E217004AF646 /* Assets.xcassets */,
 				FE08C8FB28A9E217004AF646 /* LaunchScreen.storyboard */,
 				FE08C8FE28A9E217004AF646 /* Info.plist */,
+				FE251EB928AA79BC007775AF /* GoogleService-Info.plist */,
+				FE251EBB28AA9A62007775AF /* StoreReviewController.swift */,
 			);
 			path = "rate-aps";
 			sourceTree = "<group>";
@@ -74,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE08C90128A9E217004AF646 /* Build configuration list for PBXNativeTarget "rate-aps" */;
 			buildPhases = (
+				C93B72FF024980F9C2A3490F /* [CP] Check Pods Manifest.lock */,
 				FE08C8E928A9E215004AF646 /* Sources */,
 				FE08C8EA28A9E215004AF646 /* Frameworks */,
 				FE08C8EB28A9E215004AF646 /* Resources */,
+				D4A45ECA1316ECDD7C56E21D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE08C8FD28A9E217004AF646 /* LaunchScreen.storyboard in Resources */,
+				FE251EBA28AA79BC007775AF /* GoogleService-Info.plist in Resources */,
 				FE08C8FA28A9E217004AF646 /* Assets.xcassets in Resources */,
 				FE08C8F828A9E215004AF646 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +168,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C93B72FF024980F9C2A3490F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rate-aps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A45ECA1316ECDD7C56E21D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rate-aps/Pods-rate-aps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rate-aps/Pods-rate-aps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rate-aps/Pods-rate-aps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE08C8E928A9E215004AF646 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FE08C8F528A9E215004AF646 /* ViewController.swift in Sources */,
+				FE251EBC28AA9A62007775AF /* StoreReviewController.swift in Sources */,
 				FE08C8F128A9E215004AF646 /* AppDelegate.swift in Sources */,
 				FE08C8F328A9E215004AF646 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,11 +360,14 @@
 		};
 		FE08C90228A9E217004AF646 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9471A9489E9511F6F26766C2 /* Pods-rate-aps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "rate-aps/rate-aps.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UG8FZ2U9WD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "rate-aps/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +375,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,17 +385,20 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FE08C90328A9E217004AF646 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFC073EF5C8B7C6CF61A4A8 /* Pods-rate-aps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "rate-aps/rate-aps.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UG8FZ2U9WD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "rate-aps/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +406,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +416,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>618313419327-esg4uoehsb43i2n61hpr7ldrn9fgbr36.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.618313419327-esg4uoehsb43i2n61hpr7ldrn9fgbr36</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA0mUdif_DF3Qxs0t0Bq74RdaIJS2YSRkQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>618313419327</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.papipepi.rate-aps</string>
+	<key>PROJECT_ID</key>
+	<string>papipepi-kane</string>
+	<key>STORAGE_BUCKET</key>
+	<string>papipepi-kane.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:618313419327:ios:554b61cfb5b2dbb675868a</string>
+	<key>DATABASE_URL</key>
+	<string>https://papipepi-kane.firebaseio.com</string>
+</dict>
+</plist>
